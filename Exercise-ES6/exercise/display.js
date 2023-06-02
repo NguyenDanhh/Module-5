@@ -44,30 +44,28 @@ let addedCourses = [
     }
 ];
 
-// Không trả về
+// Có return
 let checkObjectSmaller4 = () => {
-    let result = courses.filter((value) =>
-        value.rating >= 4
-    );
-    console.log(result);
+    let result = courses.filter(courses => courses.rating >= 4).map(courses => courses.id + "-"
+        + courses.title + "-" + courses.rating)
+    return result ;
 }
-checkObjectSmaller4()
+console.log(checkObjectSmaller4())
 
 
-//Có trả về
+//Không return
 let checkObjectBigger4 = () => {
-    let result = addedCourses.filter((value) =>
-        value.rating < 4
-    );
-    return result;
+    let result = addedCourses.filter(addedCourses => addedCourses.rating < 4).map(courses => courses.id + "-"
+        + courses.title + "-" + courses.rating)
+    console.log(result)
 }
-console.log(checkObjectBigger4())
+checkObjectBigger4()
 
 
-
-let mergeArray = (courses , addedCourses ) => {
-    let newArray = [...courses , ...addedCourses];
+//Gộp mảng 
+let mergeArray = (courses, addedCourses) => {
+    let newArray = [...courses, ...addedCourses];
     console.log(newArray);
 }
 
-mergeArray(courses , addedCourses);
+mergeArray(courses, addedCourses);
