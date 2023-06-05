@@ -45,27 +45,27 @@ let addedCourses = [
 ];
 
 // Có return
-let checkObjectSmaller4 = () => {
+let checkObjectBigger4 = () => {
     let result = courses.filter(courses => courses.rating >= 4).map(courses => courses.id + "-"
         + courses.title + "-" + courses.rating)
     return result ;
 }
-console.log(checkObjectSmaller4())
+console.log(checkObjectBigger4())
 
 
 //Không return
-let checkObjectBigger4 = () => {
+let  checkObjectSmaller4= () => {
     let result = addedCourses.filter(addedCourses => addedCourses.rating < 4).map(courses => courses.id + "-"
         + courses.title + "-" + courses.rating)
     console.log(result)
 }
-checkObjectBigger4()
+checkObjectSmaller4()
 
 
-//Gộp mảng 
+//Gộp mảng
 let mergeArray = (courses, addedCourses) => {
     let newArray = [...courses, ...addedCourses];
-    console.log(newArray);
+    return newArray;
 }
 
-mergeArray(courses, addedCourses);
+console.log(mergeArray(courses, addedCourses));
