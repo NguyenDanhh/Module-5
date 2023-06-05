@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93a57209-acbf-4573-8f5f-11e7f73ca835" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/footerAndHeader/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/footerAndHeader/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/colorbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/main_styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/.idea/theriver-master.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/booking.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/about_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/about_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/about_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/blog_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/blog_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/blog_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/booking.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/booking_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/booking_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/booking_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/cert_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/cert_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/contact.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/details_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/details_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/gallery_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/gallery_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/gallery_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/gallery_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/icon_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/icon_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/icon_3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/icon_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/icon_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/icon_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/icon_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/icon_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/index.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/index_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/index_blog_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/index_blog_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/index_blog_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/loader1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/loaders.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/milestones.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/phone-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/sig.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/special.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/special_offer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/testimonials.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/user_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/user_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/images/user_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/js/about.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/js/blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/js/booking.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/js/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/js/elements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/OwlCarousel2-2.3.4/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/OwlCarousel2-2.3.4/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/colorbox/images/border.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/colorbox/images/controls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/colorbox/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/colorbox/images/loading_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/colorbox/images/overlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/colorbox/jquery.colorbox-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/easing/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/greensock/ScrollToPlugin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/greensock/TimelineMax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/greensock/TweenMax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/greensock/animation.gsap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/external/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/images/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/images/ui-icons_555555_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/images/ui-icons_777620_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/images/ui-icons_777777_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/images/ui-icons_cc0000_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/jquery-ui.structure.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/jquery-ui.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/jquery-ui.theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/jquery-datepicker/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/parallax-js-master/parallax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/progressbar/progressbar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/plugins/scrollmagic/ScrollMagic.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/styles/about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/styles/about_responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/styles/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/styles/blog_responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/styles/booking.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/styles/booking_responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/styles/bootstrap-4.1.2/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/styles/bootstrap-4.1.2/popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/styles/contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/styles/contact_responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/styles/elements.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/theriver-master/styles/elements_responsive.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2Qmveg1ESB6lAZqMqH4jngLUUSC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93a57209-acbf-4573-8f5f-11e7f73ca835" name="Default Changelist" comment="" />
+      <created>1685971667156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685971667156</updated>
+      <workItem from="1685971668623" duration="1918000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1685973552703">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1685973552703" />
+    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1685973552703">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1685973552703" />
+    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1685973552703">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1685973552703" />
+    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1685973552703">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1685973552703" />
+    <state x="425" y="185" key="run.anything.popup" timestamp="1685971943973">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1685971943973" />
+  </component>
+</project>
