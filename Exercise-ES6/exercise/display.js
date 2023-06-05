@@ -63,8 +63,8 @@ checkObjectSmaller4()
 
 
 //Gộp mảng
-let mergeArray = (courses, addedCourses) => {
-    let newArray = [...courses, ...addedCourses];
+let mergeArray = (array1, array2) => {
+    let newArray = [...array1, ...array2];
     return newArray;
 }
 
