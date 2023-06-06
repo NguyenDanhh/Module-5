@@ -18,18 +18,18 @@
 
 @keyframes slideshow {
     0% {
-        background-image: url('../../public/image/img1.jpg');
+        background-image: url('../../../public/image/img1.jpg');
     }
     25% {
-        background-image: url('../../public/image/img2.jpg');
+        background-image: url('../../../public/image/img2.jpg');
     }
     50% {
-        background-image: url('../../public/image/img4.jpg');
+        background-image: url('../../../public/image/img4.jpg');
     }
     75% {
-        background-image: url('../../public/image/img3.jpg');
+        background-image: url('../../../public/image/img3.jpg');
     }
     100% {
-        background-image: url('../../public/image/img5.jpg');
+        background-image: url('../../../public/image/img5.jpg');
     }
 }

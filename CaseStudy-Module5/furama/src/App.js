@@ -1,11 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 
 import 'bootstrap/dist/css/bootstrap.css';
-import {Header} from "./component/Header";
-import {Footer} from "./component/Footer";
-import {Body} from "./component/Body";
+import {Header} from "./component/content/Header";
+import {Footer} from "./component/content/Footer";
+import {Body} from "./component/content/Body";
+import {Service} from "./component/serviceFurama/Service";
+import {FormService} from "./component/serviceFurama/FormService";
+import {ListCustomer} from "./component/customer/ListCustomer";
 
 
 function App() {
@@ -13,6 +16,9 @@ function App() {
         <>
             <Header/>
             <Body/>
+            <Service/>
+            {/*<FormService/>*/}
+            {/*{ListCustomer}*/}
             <Footer/>
         </>
     )

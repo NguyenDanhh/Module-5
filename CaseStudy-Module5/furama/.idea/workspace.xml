@@ -20,17 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93a57209-acbf-4573-8f5f-11e7f73ca835" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/Body.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/CardRoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/body.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss3/exercise/ex1_display_list_student/src/component/Student.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ss3/exercise/ex2_work_management/src/component/Work.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customer/ListCustomer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/serviceFurama/FormService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/serviceFurama/Service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/ServiceCss/FormServiceCss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/ServiceCss/service.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/customer/listCustomer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footerAndHeader/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footerAndHeader/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/content/Body.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/CardRoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/content/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/content/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/ContentCss/body.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/ContentCss/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/ContentCss/header.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -75,8 +79,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codegym\Module5\CaseStudy-Module5\furama\src\css\ServiceCss" />
+      <recent name="D:\codegym\Module5\CaseStudy-Module5\furama\src\css\ContentCss" />
+      <recent name="D:\codegym\Module5\CaseStudy-Module5\furama\src\component\serviceFurama" />
+      <recent name="D:\codegym\Module5\CaseStudy-Module5\furama\src\component\content" />
       <recent name="D:\codegym\Module5\CaseStudy-Module5\furama\src\css" />
-      <recent name="D:\codegym\Module5\CaseStudy-Module5\furama\public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -110,6 +117,7 @@
       <workItem from="1686035238370" duration="904000" />
       <workItem from="1686036773197" duration="3111000" />
       <workItem from="1686042508554" duration="394000" />
+      <workItem from="1686057442544" duration="1603000" />
     </task>
     <servers />
   </component>
@@ -133,22 +141,22 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1686041116064" />
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1686041117104">
+    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1686058045901">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1686041117104" />
-    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1686041117104">
+    <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1686058045901" />
+    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1686058045901">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1686041117104" />
-    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1686041117104">
+    <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1686058045901" />
+    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1686058045900">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1686041117104" />
-    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1686041117104">
+    <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1686058045900" />
+    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1686058045901">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1686041117104" />
+    <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1686058045901" />
     <state x="425" y="185" key="run.anything.popup" timestamp="1685971943973">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
