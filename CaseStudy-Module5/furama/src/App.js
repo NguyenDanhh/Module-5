@@ -9,18 +9,25 @@ import {Body} from "./component/content/Body";
 import {Service} from "./component/serviceFurama/Service";
 import {FormService} from "./component/serviceFurama/FormService";
 import {ListCustomer} from "./component/customer/ListCustomer";
+import {FormCustomer} from "./component/customer/FormCustomer";
+import {FormContact} from "./component/Contact/FormContact";
+import {ListContact} from "./component/Contact/ListContact";
 
 
 function App() {
     return (
         <>
-            <Header/>
-            <Body/>
-            <Service/>
+            {/*<Header/>*/}
+            {/*<Body/>*/}
+            {/*<Service/>*/}
             {/*<FormService/>*/}
-            {/*{ListCustomer}*/}
-            <Footer/>
+            {/*<ListCustomer/>*/}
+            {/*<Footer/>*/}
+            {/*<FormCustomer/>*/}
+            {/*<FormContact/>*/}
+            {/*<ListContact/>*/}
         </>
+
     )
 }
 

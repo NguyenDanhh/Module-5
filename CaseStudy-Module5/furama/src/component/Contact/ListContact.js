@@ -1,54 +1,35 @@
 import '../../css/customer/listCustomer.css'
-import 'bootstrap/dist/css/bootstrap.css'
 
-export function ListCustomer  ()  {
-    return(
+export function ListContact() {
+    return (
         <>
-            <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-            crossOrigin="anonymous"
-            referrerPolicy="no-referrer"/>
             <div className="content mt-5">
                 <div className="container">
-                    <h1 style={{textAlign : "center"}}>Danh sách khách hàng </h1>
+                    <h1 style={{textAlign : "center"}}>Danh sách hợp đồng</h1>
                     <button className="btn btn-dark fw-semibold">
                         Thêm mới <i className="fa-solid fa-user-plus"></i>
                     </button>
                     <table className="table">
                         <thead className="table-light">
                         <tr>
-                            <th>ID</th>
-                            <th>Họ tên</th>
-                            <th>Ngày sinh</th>
-                            <th>Giới tính</th>
-                            <th>Số CMND</th>
-                            <th>Số điện thoại</th>
-                            <th>Email</th>
-                            <th>Loại khách</th>
-                            <th>Địa chỉ</th>
-                            <th className="text-center">Chỉnh sửa</th>
-                            <th className="text-center">Xóa</th>
+                            <th>Mã hợp đồng</th>
+                            <th>Tên khách hàng</th>
+                            <th>Dịch vụ</th>
+                            <th>Ngày bắt đầu</th>
+                            <th>Ngày kết thúc</th>
+                            <th>Số tiền cọc trước</th>
+                            <th>Tổng số tiền thanh toán</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
                             <th>1</th>
                             <td>Nguyễn Danh</td>
-                            <td>15/11/2003</td>
-                            <td>Nam</td>
-                            <td>123455678</td>
-                            <td>123123123</td>
-                            <td>danh@gmail.com</td>
-                            <td>Diamond</td>
-                            <td>Đà Nẵng</td>
-                            <td className="text-center">
-                                <i className="fa-solid fa-pen-to-square update-btn"></i>
-                            </td>
-                            <td className="text-center">
-                                <i className="fa-solid fa-trash-can trash-can"></i>
-                            </td>
+                            <td>Resort</td>
+                            <td>01/02/2023</td>
+                            <td>01/12/2023</td>
+                            <td>100.000</td>
+                            <td>1.000.000</td>
                         </tr>
                         </tbody>
                     </table>
@@ -79,7 +60,7 @@ export function ListCustomer  ()  {
                     </div>
                 </div>
             </div>
+        </>
 
-            </>
     )
 }

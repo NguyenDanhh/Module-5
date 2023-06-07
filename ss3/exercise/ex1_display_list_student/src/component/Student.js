@@ -37,7 +37,7 @@ export class Student extends Component {
                         <tbody>
                         {
                             this.state.listStudent.map((item) => (
-                                <tr>
+                                <tr key={item.id}>
                                     <th scope="row">{item.id}</th>
                                     <td>{item.name}</td>
                                     <td>{item.age}</td>

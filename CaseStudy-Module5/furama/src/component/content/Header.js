@@ -1,6 +1,6 @@
 import '../../css/ContentCss/header.css'
 
-export const Header = () => {
+export function Header () {
 
     return (
         <>

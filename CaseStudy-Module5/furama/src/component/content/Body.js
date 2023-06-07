@@ -1,6 +1,6 @@
 import '../../css/ContentCss/body.css'
 
-export const Body = () => {
+export function Body() {
     return (
         <>
             <div className="body">

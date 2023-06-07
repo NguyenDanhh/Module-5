@@ -4,7 +4,7 @@ function mapFurama() {
     window.location = 'https://www.google.com/maps/place/Furama+Resort+Danang/@16.0399455,108.2461972,17z/data=!3m1!4b1!4m9!3m8!1s0x31420fdbc8cc38ef:0x9a6a3e31121225d2!5m2!4m1!1i2!8m2!3d16.0399456!4d108.2510681!16s%2Fg%2F1hc12jlwq?hl=vi-VN&entry=ttu';
 }
 
-export const Footer = () => {
+export function Footer () {
 
     return (
         <>

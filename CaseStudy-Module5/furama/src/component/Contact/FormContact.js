@@ -1,11 +1,11 @@
 import '../../css/ServiceCss/FormServiceCss.css'
 
-export function FormService () {
-    return(
+export function FormContact() {
+    return (
         <>
             <section
                 className="vh-70 bg-image"
-                style={{backgroundImage:"url('../image/100.jpg')"}}
+                style={{backgroundImage: "url('../image/100.jpg')"}}
             >
                 <div className="mask d-flex align-items-center h-100 gradient-custom-3">
                     <div className="container h-100">
@@ -13,15 +13,37 @@ export function FormService () {
                             className="row d-flex justify-content-center align-items-center h-100"
                         >
                             <div className="col-12 col-md-9 col-lg-7 col-xl-6">
-                                <div className="card" style={{borderRadius : " 15px"}}>
+                                <div className="card" style={{borderRadius: " 15px"}}>
                                     <div className="card-body p-5">
                                         <h3 className="title text-uppercase text-center mt-4">
-                                            Thêm mới dịch vụ
+                                            Hợp đồng
                                         </h3>
                                         <form>
                                             <div className="form-outline mb-4">
                                                 <label className="form-label" htmlFor="form3Example1cg"
-                                                >Tên dịch vụ</label
+                                                >Mã hợp đồng</label
+                                                >
+                                                <span className="text-danger">*</span>
+                                                <input
+                                                    type="text"
+                                                    id="form3Example1cg"
+                                                    className="form-control form-control-lg"
+                                                />
+                                            </div>
+                                            <div className="form-outline mb-4">
+                                                <label className="form-label" htmlFor="form3Example1cg"
+                                                >khách hàng làm hợp đồng </label
+                                                >
+                                                <span className="text-danger">*</span>
+                                                <input
+                                                    type="text"
+                                                    id="form3Example1cg"
+                                                    className="form-control form-control-lg"
+                                                />
+                                            </div>
+                                            <div className="form-outline mb-4">
+                                                <label className="form-label" htmlFor="form3Example1cg"
+                                                >dịch vụ khách hàng thuê </label
                                                 >
                                                 <span className="text-danger">*</span>
                                                 <input
@@ -33,11 +55,11 @@ export function FormService () {
 
                                             <div className="form-outline mb-4">
                                                 <label className="form-label" htmlFor="form3Example3cg"
-                                                >Diện tích sử dụng</label
+                                                >Ngày làm hợp đồng</label
                                                 >
                                                 <span className="text-danger">*</span>
                                                 <input
-                                                    type="number"
+                                                    type="date"
                                                     id="form3Example3cg"
                                                     className="form-control form-control-lg"
                                                 />
@@ -45,11 +67,11 @@ export function FormService () {
 
                                             <div className="form-outline mb-4">
                                                 <label className="form-label" htmlFor="form3Example4cg"
-                                                >Chi phí thuê</label
+                                                >Ngày kết thúc hợp đồng</label
                                                 >
                                                 <span className="text-danger">*</span>
                                                 <input
-                                                    type="number"
+                                                    type="date"
                                                     id="form3Example4cg"
                                                     className="form-control form-control-lg"
                                                 />
@@ -57,7 +79,7 @@ export function FormService () {
 
                                             <div className="form-outline mb-4">
                                                 <label className="form-label" htmlFor="form3Example4cdg"
-                                                >Số lượng người thuê tối đa</label
+                                                >Số tiền cọc trước</label
                                                 >
                                                 <span className="text-danger">*</span>
                                                 <input
@@ -68,7 +90,7 @@ export function FormService () {
                                             </div>
                                             <div className="form-outline mb-4">
                                                 <label className="form-label" htmlFor="form4Example4cdg"
-                                                >Kiểu thuê</label
+                                                >Tổng số tiền thanh toán</label
                                                 >
                                                 <span className="text-danger">*</span>
                                                 <input
@@ -77,7 +99,6 @@ export function FormService () {
                                                     className="form-control form-control-lg"
                                                 />
                                             </div>
-
                                             <div className="d-flex justify-content-center">
                                                 <button
                                                     type="button"
@@ -94,6 +115,6 @@ export function FormService () {
                     </div>
                 </div>
             </section>
-            </>
+        </>
     )
 }

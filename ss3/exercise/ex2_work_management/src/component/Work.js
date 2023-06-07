@@ -4,8 +4,8 @@ export class Work extends Component {
     constructor() {
         super();
         this.state = {
-            nameWork : '',
-            listWork: ['Danh' , 'Hung']
+            nameWork: '',
+            listWork: ['Danh', 'Hung']
         }
     }
 
@@ -15,8 +15,8 @@ export class Work extends Component {
                 <h1 style={{textAlign: "center"}}> Todo List</h1>
 
                 <input
-                       value={this.state.nameWork}
-                       onChange={(event) => this.handChange(event.target.value)}
+                    value={this.state.nameWork}
+                    onChange={(event) => this.handChange(event.target.value)}
                 />
                 <button onClick={() => this.handleAddItem()}>Add</button>
 
@@ -29,7 +29,7 @@ export class Work extends Component {
                         </thead>
                         <tbody>
                         {
-                            this.state.listWork.map((item , index) => (
+                            this.state.listWork.map((item, index) => (
 
                                 <tr key={index}>
                                     <td>{item}</td>
@@ -43,16 +43,18 @@ export class Work extends Component {
         )
     }
 
-    handChange = (value) =>
+    handChange(value) {
         this.setState({
-            nameWork : value
+            nameWork: value
         })
+    }
 
-    handleAddItem = () =>{
+
+    handleAddItem() {
         let newName = this.state.nameWork
         this.setState({
-            nameWork : '',
-            listWork : [newName , ...this.state.listWork]
+            nameWork: '',
+            listWork: [newName, ...this.state.listWork]
         })
     }
 
