@@ -1,5 +1,5 @@
 {
-  "name": "ex1_build_app_todo_list",
+  "name": "ex2_book_management",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
