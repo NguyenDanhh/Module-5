@@ -18,7 +18,7 @@ export class Work extends Component {
                     value={this.state.nameWork}
                     onChange={(event) => this.handChange(event.target.value)}
                 />
-                <button onClick={() => this.handleAddItem()}>Add</button>
+                <button onClick={() => this.handleAddItem(this.state)}>Add</button>
 
                 <div className="container">
                     <table className="table">
@@ -45,17 +45,16 @@ export class Work extends Component {
 
     handChange(value) {
         this.setState({
-            nameWork: value
-        })
-    }
+            nameWork: value,
+        });
+    };
 
 
-    handleAddItem() {
-        let newName = this.state.nameWork
+    handleAddItem(state) {
+        let newName = state.nameWork
         this.setState({
-            nameWork: '',
-            listWork: [newName, ...this.state.listWork]
+            nameWork : '',
+            listWork : [newName , ...state.listWork]
         })
-    }
-
+    };
 }
