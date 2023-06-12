@@ -17,3 +17,6 @@ i.trash-can {
 i.trash-can:hover {
     color: red;
 }
+.content{
+    margin-top: 160px;
+}

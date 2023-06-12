@@ -10,8 +10,8 @@ export function ListCustomer  ()  {
             integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
             crossOrigin="anonymous"
             referrerPolicy="no-referrer"/>
-            <div className="content mt-5">
-                <div className="container">
+            <div className=" mt-5">
+                <div className="container content">
                     <h1 style={{textAlign : "center"}}>Danh sách khách hàng </h1>
                     <button className="btn btn-dark fw-semibold">
                         Thêm mới <i className="fa-solid fa-user-plus"></i>

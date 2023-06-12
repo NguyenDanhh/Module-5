@@ -1,4 +1,5 @@
 import '../../css/ContentCss/header.css'
+import {NavLink} from "react-router-dom";
 
 export function Header () {
 
@@ -18,16 +19,16 @@ export function Header () {
                             <div className="menu d-flex align-items-center">
                                 <ul className="d-flex text-uppercase">
                                     <li>
-                                        <a href="">Trang chủ</a>
+                                        <NavLink to="/">Trang chủ</NavLink>
                                     </li>
                                     <li>
-                                        <a href="">Phòng resort</a>
+                                        <NavLink to="/room">Phòng resort</NavLink>
                                     </li>
                                     <li>
-                                        <a href="">Phòng villa</a>
+                                        <NavLink to='/contact'>Hợp đồng</NavLink>
                                     </li>
                                     <li>
-                                        <a href="">Tiện ích</a>
+                                        <NavLink to='/customer'>Khách hàng</NavLink>
                                     </li>
                                     <li>
                                         <a href="">Tin tức</a>

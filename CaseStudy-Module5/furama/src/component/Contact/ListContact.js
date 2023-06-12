@@ -3,8 +3,8 @@ import '../../css/customer/listCustomer.css'
 export function ListContact() {
     return (
         <>
-            <div className="content mt-5">
-                <div className="container">
+            <div className=" mt-5">
+                <div className="container content">
                     <h1 style={{textAlign : "center"}}>Danh sách hợp đồng</h1>
                     <button className="btn btn-dark fw-semibold">
                         Thêm mới <i className="fa-solid fa-user-plus"></i>

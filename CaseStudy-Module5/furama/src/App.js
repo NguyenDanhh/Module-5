@@ -12,17 +12,26 @@ import {ListCustomer} from "./component/customer/ListCustomer";
 import {FormCustomer} from "./component/customer/FormCustomer";
 import {FormContact} from "./component/Contact/FormContact";
 import {ListContact} from "./component/Contact/ListContact";
-
+import {Routes , Route} from 'react-router-dom'
 
 function App() {
     return (
         <>
-            {/*<Header/>*/}
-            {/*<Body/>*/}
+            <Header/>
+            <Routes>
+                <Route path='/' element={<Body/>}></Route>
+                <Route path='/room' element={<Service/>}/>
+                <Route path='/contact' element={<ListContact/>}/>
+                <Route path='/customer' element={<ListCustomer/>}/>
+            </Routes>
+            <Footer/>
+
+
+
+
             {/*<Service/>*/}
             {/*<FormService/>*/}
             {/*<ListCustomer/>*/}
-            {/*<Footer/>*/}
             {/*<FormCustomer/>*/}
             {/*<FormContact/>*/}
             {/*<ListContact/>*/}

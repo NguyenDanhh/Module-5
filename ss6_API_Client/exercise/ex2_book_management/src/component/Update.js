@@ -4,6 +4,7 @@ import {Field, Form, Formik} from "formik";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {useNavigate} from "react-router-dom";
 import {useParams} from "react-router-dom";
+import {toast} from "react-toastify";
 
 export function UpdateBook() {
     let param = useParams()
@@ -11,12 +12,14 @@ export function UpdateBook() {
     const navigate = useNavigate()
     useEffect(()=>{
         const getBookById = async () =>{
-            const result = await service.getAll()
-            const bookById = await result.find((book) => book.id === param.id)
-            setBook(bookById)
+            const result = await service.getById(param.id)
+            setBook(result)
         }
         getBookById()
     },[])
+    if(!book){
+        return null
+    }
     return (
         <>
             <Formik
@@ -27,7 +30,17 @@ export function UpdateBook() {
                     }
                 }
                 onSubmit={(values) => {
-                    console.log(values)
+                    const update = async () => {
+                        console.log(values)
+                        try {
+                            await service.update(values,param.id)
+                            toast(`Chỉnh sửa ${values.title} thành công`)
+                            navigate("/");
+                        } catch (error) {
+                            toast(`Chỉnh sửa ${values.title} thất bại`)
+                        }
+                    };
+                    update();
                 }}
             >
                 <div className="container">
@@ -40,7 +53,6 @@ export function UpdateBook() {
                                 className="form-control"
                                 id="nameInput"
                                 name ='title'
-                                value = 'title'
                             />
                         </div>
                         <div className="form-group">
@@ -50,7 +62,6 @@ export function UpdateBook() {
                                 className="form-control"
                                 id="quantityInput"
                                 name='quantity'
-                                value = 'quantity'
                             />
                         </div>
                         <button type="submit" className="btn btn-primary">Chỉnh sửa</button>

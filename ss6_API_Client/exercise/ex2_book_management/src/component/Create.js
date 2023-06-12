@@ -2,7 +2,7 @@ import * as service from '../service/LibraryService'
 import React from "react";
 import {Field, FieldArray, Form, Formik} from "formik";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {useNavigate} from "react-router";
+import {useNavigate} from "react-router-dom";
 
 export function CreatBook() {
     const navigate = useNavigate()
@@ -17,6 +17,7 @@ export function CreatBook() {
                 }
                 onSubmit={(values) => {
                     const createBook = async ()=>{
+                        console.log(values)
                         await service.save(values)
                         navigate('/')
                     }
