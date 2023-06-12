@@ -24,9 +24,9 @@ export const getById = async (id) =>{
     }
 }
 
-export const deleteById = async (id) => {
+export const deleteById = async (id , book) => {
     try {
-        await  axios.post('https://my-json-server.typicode.com/codegym-vn/mock-api-books/books' , id)
+        await axios.delete(`http://localhost:8080/bookList/${id}`,book)
     }catch (e) {
         console.log(e)
     }

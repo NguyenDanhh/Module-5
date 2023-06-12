@@ -9,6 +9,8 @@ import {useNavigate} from "react-router";
 export function Library() {
     const navigate = useNavigate()
     const [librarys, setLibrarys] = useState([])
+    const [title, setTitle] = useState("");
+    const [idDelete, setIdDel] = useState(0);
     useEffect(() => {
         const disPlay = async () => {
             try {
@@ -21,17 +23,25 @@ export function Library() {
         disPlay();
     }, [])
 
-    // function getIdDelete(id, title) {
-    //     document.getElementById('idDelete').value = id;
-    //     document.getElementById('titleDelete').innerHTML = title;
-    // }
+    const deleteBook = async (id) => {
+        const newBook = await service.getById(id)
+        await service.deleteById(id , newBook)
+        const res = await service.getAll()
+        setLibrarys(res);
+        navigate('/')
+    }
+    const handleConfirm = (book) => {
+        setTitle(book.title)
+        setIdDel(book.id)
+        console.log(title, book);
+    }
 
     return (
 
         <>
             <div className='container'>
                 <h1>Library</h1>
-                <button className="btn btn-success btn-add"><NavLink style={{textDecoration : 'none' , color : 'white'}} to={'/creat'} classNameName='nav-link'>Thêm
+                <button className="btn btn-success btn-add"><NavLink style={{textDecoration : 'none' , color : 'white'}} to={'/create'} classNameName='nav-link'>Thêm
                     mới</NavLink></button>
                 <table className="table">
                     <thead>
@@ -53,7 +63,7 @@ export function Library() {
                                 </td>
                                 <td>
                                     <button type="button" className="btn btn-danger" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModal">
+                                            data-bs-target="#exampleModal" onClick={() => handleConfirm(values)} >
                                         Delete
                                     </button>
                                 </td>
@@ -64,32 +74,25 @@ export function Library() {
                     </tbody>
                 </table>
             </div>
-            {/*<div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">*/}
-            {/*    <div className="modal-dialog">*/}
-            {/*        <div className="modal-content">*/}
-            {/*            <div className="modal-header">*/}
-            {/*                <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>*/}
-            {/*                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"/>*/}
-            {/*            </div>*/}
-            {/*            <div className="modal-body">*/}
-            {/*                Bạn có muốn xóa <span id='titleDelete'></span> ?*/}
-            {/*            </div>*/}
-            {/*            <div className="modal-footer">*/}
-            {/*                <Form onSubmit={(values) => {*/}
-            {/*                    const deleteBook = async ()=>{*/}
-            {/*                        await service.deleteById(values)*/}
-            {/*                        navigate('/')*/}
-            {/*                    }*/}
-            {/*                    deleteBook();*/}
-            {/*                }}>*/}
-            {/*                    <input type="text" id='idDelete'/>*/}
-            {/*                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>*/}
-            {/*                    <button type="submit" className="btn btn-danger">Delete</button>*/}
-            {/*                </Form>*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
+            <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
+                        </div>
+                        <div className="modal-body">
+                            Bạn có muốn xóa <span>{title}</span> ?
+                        </div>
+                        <div className="modal-footer">
+                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" className="btn btn-danger"
+                                        onClick={() => deleteBook(idDelete)}>Delete</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </>
 

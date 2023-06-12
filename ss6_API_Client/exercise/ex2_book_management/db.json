@@ -1,16 +1,6 @@
 {
   "bookList": [
     {
-      "title": "qưeqwe123134",
-      "quantity": 123123,
-      "id": 1
-    },
-    {
-      "id": 2,
-      "title": "book number twoqq",
-      "quantity": 100
-    },
-    {
       "id": 3,
       "title": "book number three",
       "quantity": 120
@@ -26,19 +16,9 @@
       "id": 5
     },
     {
-      "title": "",
-      "quantity": "",
-      "id": 6
-    },
-    {
       "title": "123",
       "quantity": 123,
-      "id": 7
-    },
-    {
-      "title": "123123123456456",
-      "quantity": 123123123,
-      "id": 8
+      "id": 6
     }
   ]
 }
