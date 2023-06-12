@@ -43,7 +43,7 @@ export function Service() {
               <span
                   className="carousel-control-prev-icon"
                   aria-hidden="true"
-              ></span>
+              />
                                 <span className="visually-hidden">Previous</span>
                             </button>
                             <button
@@ -55,7 +55,7 @@ export function Service() {
               <span
                   className="carousel-control-next-icon"
                   aria-hidden="true"
-              ></span>
+              />
                                 <span className="visually-hidden">Next</span>
                             </button>
                         </div>
@@ -73,7 +73,7 @@ export function Service() {
                                         <h5 className="card-title fw-semibold">PHÒNG SUITE HƯỚNG BIỂN</h5>
                                         <div className="d-flex justify-content-between">
                                             <p className="card-text">Diện tích phòng 85.8 m<sub>2</sub></p>
-                                            <p className="card-text"><i className="fa-solid fa-circle-info"></i> Xem
+                                            <p className="card-text"><i className="fa-solid fa-circle-info"/> Xem
                                                 thêm</p>
                                         </div>
                                     </div>
@@ -88,7 +88,7 @@ export function Service() {
                                         <h5 className="card-title fw-semibold">PHÒNG STUDIO SUITE HƯỚNG BIỂN</h5>
                                         <div className="d-flex justify-content-between">
                                             <p className="card-text">Diện tích phòng 85.8 m<sub>2</sub></p>
-                                            <p className="card-text"><i className="fa-solid fa-circle-info"></i> Xem
+                                            <p className="card-text"><i className="fa-solid fa-circle-info"/> Xem
                                                 thêm</p>
                                         </div>
                                     </div>
@@ -103,7 +103,7 @@ export function Service() {
                                         <h5 className="card-title fw-semibold">PHÒNG DELUXE HƯỚNG BIỂN</h5>
                                         <div className="d-flex justify-content-between">
                                             <p className="card-text">Diện tích phòng 85.8 m<sub>2</sub></p>
-                                            <p className="card-text"><i className="fa-solid fa-circle-info"></i> Xem
+                                            <p className="card-text"><i className="fa-solid fa-circle-info"/> Xem
                                                 thêm</p>
                                         </div>
                                     </div>
@@ -118,7 +118,7 @@ export function Service() {
                                         <h5 className="card-title fw-semibold">PHÒNG SUITE HƯỚNG BIỂN</h5>
                                         <div className="d-flex justify-content-between">
                                             <p className="card-text">Diện tích phòng 85.8 m<sub>2</sub></p>
-                                            <p className="card-text"><i className="fa-solid fa-circle-info"></i> Xem
+                                            <p className="card-text"><i className="fa-solid fa-circle-info"/> Xem
                                                 thêm</p>
                                         </div>
                                     </div>
@@ -133,7 +133,7 @@ export function Service() {
                                         <h5 className="card-title fw-semibold">PHÒNG STUDIO SUITE HƯỚNG BIỂN</h5>
                                         <div className="d-flex justify-content-between">
                                             <p className="card-text">Diện tích phòng 85.8 m<sub>2</sub></p>
-                                            <p className="card-text"><i className="fa-solid fa-circle-info"></i> Xem
+                                            <p className="card-text"><i className="fa-solid fa-circle-info"/> Xem
                                                 thêm</p>
                                         </div>
                                     </div>
@@ -148,7 +148,7 @@ export function Service() {
                                         <h5 className="card-title fw-semibold">PHÒNG DELUXE HƯỚNG BIỂN</h5>
                                         <div className="d-flex justify-content-between">
                                             <p className="card-text">Diện tích phòng 85.8 m<sub>2</sub></p>
-                                            <p className="card-text"><i className="fa-solid fa-circle-info"></i> Xem
+                                            <p className="card-text"><i className="fa-solid fa-circle-info"/> Xem
                                                 thêm</p>
                                         </div>
                                     </div>
@@ -163,7 +163,7 @@ export function Service() {
                                         <h5 className="card-title fw-semibold">PHÒNG SUITE HƯỚNG BIỂN</h5>
                                         <div className="d-flex justify-content-between">
                                             <p className="card-text">Diện tích phòng 85.8 m<sub>2</sub></p>
-                                            <p className="card-text"><i className="fa-solid fa-circle-info"></i> Xem
+                                            <p className="card-text"><i className="fa-solid fa-circle-info"/> Xem
                                                 thêm</p>
                                         </div>
                                     </div>
@@ -178,7 +178,7 @@ export function Service() {
                                         <h5 className="card-title fw-semibold">PHÒNG STUDIO SUITE HƯỚNG BIỂN</h5>
                                         <div className="d-flex justify-content-between">
                                             <p className="card-text">Diện tích phòng 85.8 m<sub>2</sub></p>
-                                            <p className="card-text"><i className="fa-solid fa-circle-info"></i> Xem
+                                            <p className="card-text"><i className="fa-solid fa-circle-info"/> Xem
                                                 thêm</p>
                                         </div>
                                     </div>
@@ -193,7 +193,7 @@ export function Service() {
                                         <h5 className="card-title fw-semibold">PHÒNG DELUXE HƯỚNG BIỂN</h5>
                                         <div className="d-flex justify-content-between">
                                             <p className="card-text">Diện tích phòng 85.8 m<sub>2</sub></p>
-                                            <p className="card-text"><i className="fa-solid fa-circle-info"></i> Xem
+                                            <p className="card-text"><i className="fa-solid fa-circle-info"/> Xem
                                                 thêm</p>
                                         </div>
                                     </div>
