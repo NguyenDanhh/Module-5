@@ -1,40 +1,35 @@
-import "./user.css"
-import {useEffect, useState} from "react";
-import {deleteUsers, getAll} from "../service/UserService";
-import 'bootstrap/dist/css/bootstrap.css';
-import {useNavigate} from "react-router";
-
-function ListUser() {
-    const navigate = useNavigate();
-    const [users, setUsers] = useState([])
-    const [nameDelete , setNameDelete] = useState('')
-    const [idDelete , setIdDelete] = useState(0)
-    const display = async () => {
-        const result = getAll()
-        setUsers(await result);
-
-    }
-    display();
-
-    const handleConfirm = (value) => {
-        setNameDelete(value.name);
-        setIdDelete(value.id);
-    }
-
-    const deleteUser = async (id) =>{
-        await deleteUsers(id)
-        navigate("/users")
-    }
-    useEffect(() => {
-        getAll()
-    }, [])
+import { useDispatch, useSelector } from "react-redux";
+import { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
+import { DELETE_USER } from "../reudux/Action";
+function ManageUser() {
+    const dispatch = useDispatch();
+    const users = useSelector((state) => state.users);
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    const [isShow, setIsShow] = useState(false);
+    const [userDelete, setUserDelete] = useState({});
+    const handleDeleteUser = (id) => {
+        dispatch({ type: "DELETE_USER", payload: id });
+    };
     return (
         <>
-            <div className='container'>
-                <table className='table'>
-                    <thead>
+            <h1>User list</h1>
+            <button
+                onClick={() => {
+                    dispatch({ type: "FETCH_USER" });
+                    setIsShow((prev) => !prev);
+                }}
+            >
+                Get users
+            </button>
+            {isShow && (
+                <table className="table">
+                    <thead className="table-light">
                     <tr>
-                        <th>Id</th>
+                        <th>ID</th>
                         <th>Name</th>
                         <th>Email</th>
                         <th>Website</th>
@@ -42,48 +37,52 @@ function ListUser() {
                     </tr>
                     </thead>
                     <tbody>
-                    {
-                        users.map((user, index) => {
-                            return (
-                                <tr key={index}>
-                                    <td>{user.id}</td>
-                                    <td>{user.name}</td>
-                                    <td>{user.email}</td>
-                                    <td>{user.website}</td>
-                                    <td>
-                                        <button type="button" className="btn btn-danger" data-bs-toggle="modal"
-                                                data-bs-target="#exampleModal" onClick={() => handleConfirm(user)}>
-                                            Delete
-                                        </button>
-                                    </td>
-                                </tr>
-                            )
-                        })
-                    }
+                    {users.map((user) => {
+                        return (
+                            <tr key={user.id}>
+                                <td>{user.id}</td>
+                                <td>{user.name}</td>
+                                <td>{user.email}</td>
+                                <td>{user.website}</td>
+                                <td>
+                                    <button
+                                        className="btn btn-danger"
+                                        onClick={() => {
+                                            handleShow();
+                                            setUserDelete(user);
+                                        }}
+                                    >
+                                        Delete
+                                    </button>
+                                </td>
+                            </tr>
+                        );
+                    })}
                     </tbody>
                 </table>
-            </div>
-
-
-            <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div className="modal-dialog">
-                    <div className="modal-content">
-                        <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
-                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
-                        </div>
-                        <div className="modal-body">
-                            Bạn có muốn xóa <span>{nameDelete}</span>
-                        </div>
-                        <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" className="btn btn-danger" onClick={() => deleteUser(idDelete)}>Delete</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            )}
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                    <Modal.Title>Xác nhận</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>Bạn chắc chắc muốn xóa {userDelete.name} ?</Modal.Body>
+                <Modal.Footer>
+                    <Button variant="secondary" onClick={handleClose}>
+                        Đóng
+                    </Button>
+                    <Button
+                        variant="danger"
+                        onClick={() => {
+                            handleDeleteUser(userDelete.id);
+                            handleClose();
+                        }}
+                    >
+                        Xóa
+                    </Button>
+                </Modal.Footer>
+            </Modal>
         </>
-    )
+    );
 }
 
-export default ListUser;
+export default ManageUser;
