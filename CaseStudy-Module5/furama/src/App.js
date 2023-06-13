@@ -23,8 +23,9 @@ function App() {
                 <Route path='/room' element={<Service/>}/>
                 <Route path='/contact' element={<ListContact/>}/>
                 <Route path='/customer' element={<ListCustomer/>}/>
+                <Route path='/create-customer' element={<FormCustomer/>} />
             </Routes>
-            <Footer/>
+            {/*<Footer/>*/}
 
 
 

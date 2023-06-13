@@ -1,13 +1,26 @@
 import '../../css/customer/listCustomer.css'
+import {useEffect, useState} from "react";
+import {getListContact} from "../../service/ContactService";
 
 export function ListContact() {
+    const [listContact , setListContact] = useState([])
+
+    const displayListContact = async () =>{
+        const result = await getListContact();
+        setListContact(result)
+    }
+
+    useEffect(() => {
+        displayListContact()
+    },[])
+
     return (
         <>
             <div className=" mt-5">
                 <div className="container content">
                     <h1 style={{textAlign : "center"}}>Danh sách hợp đồng</h1>
                     <button className="btn btn-dark fw-semibold">
-                        Thêm mới <i className="fa-solid fa-user-plus"></i>
+                        Thêm mới <i className="fa-solid fa-user-plus"/>
                     </button>
                     <table className="table">
                         <thead className="table-light">
@@ -22,15 +35,30 @@ export function ListContact() {
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <th>1</th>
-                            <td>Nguyễn Danh</td>
-                            <td>Resort</td>
-                            <td>01/02/2023</td>
-                            <td>01/12/2023</td>
-                            <td>100.000</td>
-                            <td>1.000.000</td>
-                        </tr>
+                        {
+                            listContact.map((value => {
+                                return(
+                                    <tr key={value.id}>
+                                        <td>{value.id}</td>
+                                        <td>{value.name}</td>
+                                        <td>{value.service}</td>
+                                        <td>{value.startDay}</td>
+                                        <td>{value.endDate}</td>
+                                        <td>{value.deposit}</td>
+                                        <td>{value.totalPayment}</td>
+                                    </tr>
+                                )
+                            }))
+                        }
+                        {/*<tr>*/}
+                        {/*    <th>1</th>*/}
+                        {/*    <td>Nguyễn Danh</td>*/}
+                        {/*    <td>Resort</td>*/}
+                        {/*    <td>01/02/2023</td>*/}
+                        {/*    <td>01/12/2023</td>*/}
+                        {/*    <td>100.000</td>*/}
+                        {/*    <td>1.000.000</td>*/}
+                        {/*</tr>*/}
                         </tbody>
                     </table>
                     <div className="d-flex justify-content-center">

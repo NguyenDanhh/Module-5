@@ -10,11 +10,11 @@ export function Header () {
                     <div className="container d-flex justify-content-between h-100">
                         <div className="left d-flex h-100">
                             <div className="logo h-100">
-                                <img
-                                    className="h-100"
-                                    src="https://furama-booking.com/wp-content/uploads/2021/10/logo-furama-resort-villa.png"
-                                    alt=""
-                                />
+                                {/*<img*/}
+                                {/*    className="h-100"*/}
+                                {/*    src="https://furama-booking.com/wp-content/uploads/2021/10/logo-furama-resort-villa.png"*/}
+                                {/*    alt=""*/}
+                                {/*/>*/}
                             </div>
                             <div className="menu d-flex align-items-center">
                                 <ul className="d-flex text-uppercase">

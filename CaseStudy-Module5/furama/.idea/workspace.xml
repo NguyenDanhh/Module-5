@@ -20,9 +20,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93a57209-acbf-4573-8f5f-11e7f73ca835" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/component/serviceFurama/CustomerService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ContactService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/RoomService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Contact/ListContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Contact/ListContact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/content/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/content/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/customer/FormCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/customer/FormCustomer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/customer/ListCustomer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/customer/ListCustomer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/serviceFurama/Service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/serviceFurama/Service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ss6_API_Client/exercise/ex2_book_management/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss6_API_Client/exercise/ex2_book_management/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/ServiceCss/service.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/ServiceCss/service.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/exercise/src/component/ListUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_redux/exercise/src/component/ListUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/exercise/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_redux/exercise/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/exercise/src/reudux/Action.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_redux/exercise/src/redux/Action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/exercise/src/reudux/Reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_redux/exercise/src/redux/Reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/exercise/src/reudux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_redux/exercise/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/exercise/src/saga/userSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss7_redux/exercise/src/saga/userSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/src/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/src/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/src/app/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/src/app/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/src/app/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss7_redux/untitled/src/app/page.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/.idea/ss8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/exercise/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/exercise/.idea/exercise.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/exercise/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/exercise/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss8/exercise/.idea/vcs.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +100,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ss7_redux/exercise" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ss8_nextjs/exercise/covid-19" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -68,15 +115,25 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codegym\Module5\CaseStudy-Module5\furama\src\service" />
       <recent name="D:\codegym\Module5\CaseStudy-Module5\furama\src\css\ServiceCss" />
       <recent name="D:\codegym\Module5\CaseStudy-Module5\furama\src\css\ContentCss" />
       <recent name="D:\codegym\Module5\CaseStudy-Module5\furama\src\component\serviceFurama" />
       <recent name="D:\codegym\Module5\CaseStudy-Module5\furama\src\component\content" />
-      <recent name="D:\codegym\Module5\CaseStudy-Module5\furama\src\css" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="json-server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="json-server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -89,6 +146,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.json-server" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -115,6 +177,11 @@
       <workItem from="1686215726083" duration="610000" />
       <workItem from="1686544093205" duration="1354000" />
       <workItem from="1686551597262" duration="1195000" />
+      <workItem from="1686630591925" duration="2767000" />
+      <workItem from="1686638799656" duration="3245000" />
+      <workItem from="1686642953487" duration="49000" />
+      <workItem from="1686645012303" duration="6584000" />
+      <workItem from="1686660526364" duration="32000" />
     </task>
     <servers />
   </component>
@@ -134,29 +201,33 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1686556932663">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1686660556532">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1686556932663" />
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1686556933981">
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1686660556532" />
+    <state width="1515" height="208" key="GridCell.Tab.0.bottom" timestamp="1686651614735">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1686556933981" />
-    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1686556933981">
+    <state width="1515" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1686651614735" />
+    <state width="1515" height="208" key="GridCell.Tab.0.center" timestamp="1686651614735">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1686556933981" />
-    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1686556933981">
+    <state width="1515" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1686651614735" />
+    <state width="1515" height="208" key="GridCell.Tab.0.left" timestamp="1686651614735">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1686556933981" />
-    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1686556933981">
+    <state width="1515" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1686651614735" />
+    <state width="1515" height="208" key="GridCell.Tab.0.right" timestamp="1686651614735">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1686556933981" />
+    <state width="1515" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1686651614735" />
     <state x="425" y="185" key="run.anything.popup" timestamp="1685971943973">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1685971943973" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1686651296195">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1686651296195" />
   </component>
 </project>

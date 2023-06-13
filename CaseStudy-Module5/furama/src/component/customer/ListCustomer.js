@@ -1,7 +1,29 @@
 import '../../css/customer/listCustomer.css'
 import 'bootstrap/dist/css/bootstrap.css'
+import {useEffect, useState} from "react";
+import {getListCustomer, getTypeCustomer} from "../serviceFurama/CustomerService";
+import {Link} from "react-router-dom";
 
 export function ListCustomer  ()  {
+    const [listCustomer , setListCustomer] = useState([])
+    const [typeCustomer , setTypeCustomer] = useState([])
+
+    const displayTypeCustomer = async () => {
+        const res = getTypeCustomer()
+        setTypeCustomer(await res)
+        console.log(res)
+    }
+
+    const displayListCutomer = async () => {
+        const res = getListCustomer()
+        setListCustomer(await res)
+    }
+
+    useEffect(() => {
+        displayListCutomer()
+        displayTypeCustomer()
+    },[])
+
     return(
         <>
             <link
@@ -13,9 +35,9 @@ export function ListCustomer  ()  {
             <div className=" mt-5">
                 <div className="container content">
                     <h1 style={{textAlign : "center"}}>Danh sách khách hàng </h1>
-                    <button className="btn btn-dark fw-semibold">
-                        Thêm mới <i className="fa-solid fa-user-plus"></i>
-                    </button>
+                    <Link to='/create-customer' className="btn btn-dark fw-semibold">
+                        Thêm mới <i className="fa-solid fa-user-plus"/>
+                    </Link>
                     <table className="table">
                         <thead className="table-light">
                         <tr>
@@ -33,23 +55,30 @@ export function ListCustomer  ()  {
                         </tr>
                         </thead>
                         <tbody>
-                        <tr>
-                            <th>1</th>
-                            <td>Nguyễn Danh</td>
-                            <td>15/11/2003</td>
-                            <td>Nam</td>
-                            <td>123455678</td>
-                            <td>123123123</td>
-                            <td>danh@gmail.com</td>
-                            <td>Diamond</td>
-                            <td>Đà Nẵng</td>
-                            <td className="text-center">
-                                <i className="fa-solid fa-pen-to-square update-btn"></i>
-                            </td>
-                            <td className="text-center">
-                                <i className="fa-solid fa-trash-can trash-can"></i>
-                            </td>
-                        </tr>
+                        {
+                            listCustomer.map((value) => {
+                                return(
+                                    <tr key={value.id}>
+                                        <th>{value.id}</th>
+                                        <td>{value.name}</td>
+                                        <td>{value.dateOfBirth}</td>
+                                        <td>{value.gender = 1 ? "Name" : "Nữ"}</td>
+                                        <td>{value.idCard}</td>
+                                        <td>{value.phoneNumber}</td>
+                                        <td>{value.email}</td>
+                                        <td>{typeCustomer.filter(ct => ct.id === value.customerType)[0]?.name}</td>
+                                        <td>{value.address}</td>
+                                        <td className="text-center">
+                                            <i className="fa-solid fa-pen-to-square update-btn"></i>
+                                        </td>
+                                        <td className="text-center">
+                                            <i className="fa-solid fa-trash-can trash-can"></i>
+                                        </td>
+                                    </tr>
+                                )
+                            })
+                        }
+
                         </tbody>
                     </table>
                     <div className="d-flex justify-content-center">

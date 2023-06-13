@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import { DELETE_USER } from "../reudux/Action";
+import { DELETE_USER } from "../redux/Action";
 function ManageUser() {
     const dispatch = useDispatch();
     const users = useSelector((state) => state.users);

@@ -5,9 +5,9 @@ import {
     DELETE_USER_SUCCESS,
     FETCH_USER,
     FETCH_USER_SUCCESS,
-} from "../reudux/Action";
+} from "../redux/Action";
 
-function* getUser(action) {
+function* getUser() {
     try {
         const response = yield axios.get(
             "https://jsonplaceholder.typicode.com/users"
@@ -20,7 +20,7 @@ function* getUser(action) {
 function* deleteUser(action) {
     console.log(action);
     const response = yield axios.delete(
-        "https://jsonplaceholder.typicode.com/users" + action.payload
+        `https://jsonplaceholder.typicode.com/users/${action.payload}`
     );
     yield put({ type: DELETE_USER_SUCCESS, payload: response.payload });
 }
