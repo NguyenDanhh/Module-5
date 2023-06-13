@@ -10,7 +10,7 @@ import {
 function* getUser(action) {
     try {
         const response = yield axios.get(
-            ""
+            "https://jsonplaceholder.typicode.com/users"
         );
         yield put({ type: FETCH_USER_SUCCESS, payload: response.data });
     } catch (error) {
@@ -22,7 +22,7 @@ function* deleteUser(action) {
     const response = yield axios.delete(
         "https://jsonplaceholder.typicode.com/users" + action.payload
     );
-    yield put({ type: DELETE_USER_SUCCESS, payload: action.payload });
+    yield put({ type: DELETE_USER_SUCCESS, payload: response.payload });
 }
 export default function* rootSaga() {
     yield takeLatest(FETCH_USER, getUser);

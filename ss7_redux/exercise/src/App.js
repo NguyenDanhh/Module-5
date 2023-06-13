@@ -9,18 +9,6 @@ import ManageUser from "./component/ListUser";
 function App() {
     return (
         <>
-            {/*<div className='container'>*/}
-            {/*    <h1>User list</h1>*/}
-            {/*    <nav>*/}
-            {/*        <button className='btn btn-secondary'>*/}
-            {/*            <Link to='/users' className='test'>Get users</Link>*/}
-            {/*        </button>*/}
-            {/*    </nav>*/}
-            {/*</div>*/}
-
-            {/*<Routes>*/}
-            {/*    <Route path='/users' element={<ManageUser/>}/>*/}
-            {/*</Routes>*/}
             <ManageUser/>
         </>
 
