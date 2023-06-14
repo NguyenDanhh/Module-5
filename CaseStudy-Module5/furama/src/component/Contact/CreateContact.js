@@ -1,6 +1,8 @@
 import '../../css/ServiceCss/FormServiceCss.css'
 
-export function FormContact() {
+export function CreateContact() {
+    // const [listCustomer]
+
     return (
         <>
             <section

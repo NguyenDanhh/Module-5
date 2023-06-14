@@ -1,11 +1,14 @@
 import '../../css/ServiceCss/FormServiceCss.css'
-import {Field, Form, Formik} from "formik";
+import {ErrorMessage, Field, Form, Formik} from "formik";
 import {useEffect, useState} from "react";
-import {createCustomer, getTypeCustomer} from "../serviceFurama/CustomerService";
+import {createCustomer, getTypeCustomer} from "../../service/CustomerService";
 import {useNavigate} from "react-router-dom";
+import * as yup from "yup"
+import {toast} from "react-toastify";
 
-export function FormCustomer() {
-    const [listTypeCustomer , setListTypeCustomer] = useState([])
+
+export function CreateCustomer() {
+    const [listTypeCustomer, setListTypeCustomer] = useState([])
     const navigate = useNavigate()
 
     const displayTypeCustomer = async () => {
@@ -15,27 +18,48 @@ export function FormCustomer() {
 
     useEffect(() => {
         displayTypeCustomer()
-    } , [])
+    }, [])
     return (
 
         <>
             <Formik
                 initialValues={
                     {
-                        name : "" ,
-                        dateOfBirth : "",
-                        gender : "" ,
-                        idCard : "",
-                        phoneNumber : "" ,
-                        email : "" ,
-                        address : "" ,
-                        customerType : []
+                        id: "",
+                        name: "",
+                        dateOfBirth: "",
+                        gender: "",
+                        idCard: "",
+                        phoneNumber: "",
+                        email: "",
+                        address: "",
+                        customerType: "1"
                     }
                 }
+                validationSchema={yup.object (
+                    {
+                        name : yup.string().required("Vui lòng nhập"),
+                        dateOfBirth : yup.string().required("Vui lòng chọn"),
+                        gender : yup.string().required("Vui lòng chọn"),
+                        idCard : yup.string().required("Vui lòng nhập"),
+                        phoneNumber : yup.string().required("Vui lòng nhập"),
+                        email : yup.string().required("Vui lòng nhập"),
+                        address : yup.string().required("Vui lòng nhập"),
+                        customerType : yup.string().required("Vui lòng chọn")
+                    }
+                )
+                }
                 onSubmit={(values => {
-                    createCustomer(values)
-                    navigate("/customer")
-                })}
+                        const create = async () => {
+                            await createCustomer(values)
+                        }
+                        create()
+                        toast("Thêm thành công")
+                        navigate("/customer")
+                    }
+                )
+
+                }
             >
 
 
@@ -49,7 +73,7 @@ export function FormCustomer() {
                                 className="row d-flex justify-content-center align-items-center h-100"
                             >
                                 <div className="col-12 col-md-9 col-lg-7 col-xl-6">
-                                    <div className="card" style={{borderRadius: " 15px"}}>
+                                    <div className="card" style={{borderRadius: " 15px" , marginTop: "144px"}}>
                                         <div className="card-body p-5">
                                             <h3 className="title text-uppercase text-center mt-4">
                                                 Thêm mới khách hàng
@@ -64,8 +88,9 @@ export function FormCustomer() {
                                                         type="text"
                                                         id="form3Example1cg"
                                                         className="form-control form-control-lg"
-                                                        name = "name"
+                                                        name="name"
                                                     />
+                                                    <ErrorMessage name="name" className="text-danger" component="span"/>
                                                 </div>
 
                                                 <div className="form-outline mb-4">
@@ -77,8 +102,9 @@ export function FormCustomer() {
                                                         type="date"
                                                         id="form3Example3cg"
                                                         className="form-control form-control-lg"
-                                                        name = "dateOfBirth"
+                                                        name="dateOfBirth"
                                                     />
+                                                    <ErrorMessage name="dateOfBirth" className="text-danger" component="span"/>
                                                 </div>
 
                                                 <div className="form-outline mb-4">
@@ -89,19 +115,20 @@ export function FormCustomer() {
                                                     <div className="form-check">
                                                         <Field className="form-check-input" type="radio"
                                                                name="gender" id="flexRadioDefault1" value="1"/>
-                                                            <label className="form-check-label"
-                                                                   htmlFor="flexRadioDefault1">
-                                                                Nam
-                                                            </label>
+                                                        <label className="form-check-label"
+                                                               htmlFor="flexRadioDefault1">
+                                                            Nam
+                                                        </label>
                                                     </div>
                                                     <div className="form-check">
                                                         <Field className="form-check-input" type="radio"
                                                                name="gender" id="flexRadioDefault1" value="2"/>
-                                                            <label className="form-check-label"
-                                                                   htmlFor="flexRadioDefault1">
-                                                                Nữ
-                                                            </label>
+                                                        <label className="form-check-label"
+                                                               htmlFor="flexRadioDefault1">
+                                                            Nữ
+                                                        </label>
                                                     </div>
+                                                    <ErrorMessage name="gender" className="text-danger" component="span"/>
                                                 </div>
 
                                                 <div className="form-outline mb-4">
@@ -113,8 +140,10 @@ export function FormCustomer() {
                                                         type="number"
                                                         id="form3Example4cdg"
                                                         className="form-control form-control-lg"
-                                                        name ="idCard"
+                                                        name="idCard"
                                                     />
+                                                    <ErrorMessage name="idCard" className="text-danger" component="span"/>
+
                                                 </div>
                                                 <div className="form-outline mb-4">
                                                     <label className="form-label" htmlFor="form4Example4cdg"
@@ -125,8 +154,10 @@ export function FormCustomer() {
                                                         type="number"
                                                         id="form4Example4cdg"
                                                         className="form-control form-control-lg"
-                                                        name ="phoneNumber"
+                                                        name="phoneNumber"
                                                     />
+                                                    <ErrorMessage name="phoneNumber" className="text-danger" component="span"/>
+
                                                 </div>
                                                 <div className="form-outline mb-4">
                                                     <label className="form-label" htmlFor="form4Example4cdg"
@@ -137,8 +168,10 @@ export function FormCustomer() {
                                                         type="text"
                                                         id="form4Example4cdg"
                                                         className="form-control form-control-lg"
-                                                        name ="email"
+                                                        name="email"
                                                     />
+                                                    <ErrorMessage name="email" className="text-danger" component="span"/>
+
                                                 </div>
                                                 <div className="form-outline mb-4">
                                                     <label className="form-label" htmlFor="form4Example4cdg"
@@ -153,22 +186,26 @@ export function FormCustomer() {
                                                     >
                                                         {
                                                             listTypeCustomer.map((value =>
-                                                            <option value={value.id}>{value.name}</option>
+                                                                    <option value={value.id}>{value.name}</option>
                                                             ))
                                                         }
                                                     </Field>
+                                                    <ErrorMessage name="typeCustomer" className="text-danger" component="span"/>
+
                                                 </div>
                                                 <div className="form-outline mb-4">
                                                     <label className="form-label" htmlFor="form4Example4cdg"
                                                     >Địa chỉ </label
                                                     >
                                                     <span className="text-danger">*</span>
-                                                    <input
+                                                    <Field
                                                         type="text"
                                                         id="form4Example4cdg"
                                                         className="form-control form-control-lg"
                                                         name="address"
                                                     />
+                                                    <ErrorMessage name="address" className="text-danger" component="span"/>
+
                                                 </div>
 
                                                 <div className="d-flex justify-content-center">

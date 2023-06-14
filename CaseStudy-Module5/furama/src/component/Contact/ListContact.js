@@ -1,24 +1,30 @@
 import '../../css/customer/listCustomer.css'
 import {useEffect, useState} from "react";
 import {getListContact} from "../../service/ContactService";
+import {getListCustomer} from "../../service/CustomerService";
 
 export function ListContact() {
-    const [listContact , setListContact] = useState([])
-
-    const displayListContact = async () =>{
+    const [listContact, setListContact] = useState([])
+    const [listCustomer, setListCustomer] = useState([])
+    const displayListContact = async () => {
         const result = await getListContact();
         setListContact(result)
     }
 
+    const displayListCustomer = async () => {
+        const res = await getListCustomer()
+        setListCustomer(res)
+    }
     useEffect(() => {
         displayListContact()
-    },[])
+        displayListCustomer()
+    }, [])
 
     return (
         <>
             <div className=" mt-5">
                 <div className="container content">
-                    <h1 style={{textAlign : "center"}}>Danh sách hợp đồng</h1>
+                    <h1 style={{textAlign: "center"}}>Danh sách hợp đồng</h1>
                     <button className="btn btn-dark fw-semibold">
                         Thêm mới <i className="fa-solid fa-user-plus"/>
                     </button>
@@ -37,10 +43,10 @@ export function ListContact() {
                         <tbody>
                         {
                             listContact.map((value => {
-                                return(
+                                return (
                                     <tr key={value.id}>
                                         <td>{value.id}</td>
-                                        <td>{value.name}</td>
+                                        <td>{listCustomer.find(value1 => value1.id === value.customerId).name}</td>
                                         <td>{value.service}</td>
                                         <td>{value.startDay}</td>
                                         <td>{value.endDate}</td>
@@ -50,15 +56,6 @@ export function ListContact() {
                                 )
                             }))
                         }
-                        {/*<tr>*/}
-                        {/*    <th>1</th>*/}
-                        {/*    <td>Nguyễn Danh</td>*/}
-                        {/*    <td>Resort</td>*/}
-                        {/*    <td>01/02/2023</td>*/}
-                        {/*    <td>01/12/2023</td>*/}
-                        {/*    <td>100.000</td>*/}
-                        {/*    <td>1.000.000</td>*/}
-                        {/*</tr>*/}
                         </tbody>
                     </table>
                     <div className="d-flex justify-content-center">

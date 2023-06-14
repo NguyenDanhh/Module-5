@@ -22,7 +22,12 @@ export function Header () {
                                         <NavLink to="/">Trang chủ</NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to="/room">Phòng resort</NavLink>
+                                        <NavLink>Dịch vụ</NavLink>
+                                        <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a className="dropdown-item" href="#">Action</a></li>
+                                            <li><a className="dropdown-item" href="#">Another action</a></li>
+                                            <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
                                     </li>
                                     <li>
                                         <NavLink to='/contact'>Hợp đồng</NavLink>
