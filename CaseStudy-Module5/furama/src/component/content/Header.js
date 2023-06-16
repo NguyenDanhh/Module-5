@@ -1,7 +1,7 @@
 import '../../css/ContentCss/header.css'
 import {NavLink} from "react-router-dom";
 
-export function Header () {
+export function Header() {
 
     return (
         <>
@@ -21,12 +21,13 @@ export function Header () {
                                     <li>
                                         <NavLink to="/">Trang chủ</NavLink>
                                     </li>
-                                    <li>
-                                        <NavLink>Dịch vụ</NavLink>
-                                        <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <li><a className="dropdown-item" href="#">Action</a></li>
-                                            <li><a className="dropdown-item" href="#">Another action</a></li>
-                                            <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li className="nav-item dropdown">
+                                        <a className="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                                 data-bs-toggle="dropdown" aria-expanded="false">Dịch vụ</a>
+                                        <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">
+                                            <li><NavLink className="dropdown" to="/room">Room</NavLink></li>
+                                            <li><NavLink className="dropdown">House</NavLink></li>
+                                            <li><NavLink className="dropdown">Villa</NavLink></li>
                                         </ul>
                                     </li>
                                     <li>

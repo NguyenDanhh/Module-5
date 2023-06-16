@@ -1,19 +1,19 @@
-import '../../css/ServiceCss/service.css'
+import '../../../css/ServiceCss/service.css'
 import {useEffect, useState} from "react";
-import {getListRoom} from "../../service/RoomService";
+import {getListVilla} from "../../../service/VillaService";
 
 
-export function Service() {
-    const [lisRoom , setListRoom] = useState([])
+export function Villas() {
+    const [listVilla , setListVilla] = useState([])
 
-    const displayListRoom = async () => {
-        const result = await getListRoom()
-        setListRoom(result)
+    const displayListVilla = async () => {
+        const result = await getListVilla()
+        setListVilla(result)
     }
 
 
     useEffect(() => {
-        displayListRoom()
+        displayListVilla()
     },[])
     return (
 
@@ -28,7 +28,7 @@ export function Service() {
                     <div className="container">
                         <div className="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
                             {
-                                lisRoom.map((value => {
+                                listVilla.map((value => {
                                     return(
                                         <div className="col-4">
                                             <div className="card mb-4">

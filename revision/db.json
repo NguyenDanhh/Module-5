@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "codeProduct": "PROD-0001",
+      "name": "Product1",
+      "description": "New",
+      "price": 1000,
+      "amount": 10,
+      "date": "22/12/2023",
+      "idType": "1",
+      "id": 1
+    },
+    {
+      "codeProduct": "PROD-0001",
+      "name": "Product1",
+      "description": "New",
+      "price": 1000,
+      "amount": 10,
+      "date": "11/01/2023",
+      "idType": "2",
+      "id": 2
+    },
+    {
+      "codeProduct": "PROD-0001",
+      "name": "Product1",
+      "description": "New",
+      "price": 1000,
+      "amount": 10,
+      "date": "06/07/2023",
+      "idType": "3",
+      "id": 3
+    },
+    {
+      "codeProduct": "PROD-1231",
+      "name": "123",
+      "price": 123,
+      "amount": 123,
+      "date": "2023-06-29",
+      "description": "123",
+      "idType": "2",
+      "id": 4
+    },
+    {
+      "codeProduct": "PROD-1211",
+      "name": "123",
+      "price": 123,
+      "amount": 123,
+      "date": "2023-06-14",
+      "description": "123",
+      "idType": "3",
+      "id": 5
+    },
+    {
+      "codeProduct": "PROD-1111",
+      "name": "123",
+      "price": 123,
+      "amount": 1,
+      "date": "2023-06-14",
+      "description": "123",
+      "idType": "1",
+      "id": 6
+    }
+  ],
+  "typeProduct": [
+    {
+      "id": "1",
+      "nameType": "New"
+    },
+    {
+      "id": "2",
+      "nameType": "New 99%"
+    },
+    {
+      "id": "3",
+      "nameType": "Old"
+    }
+  ]
+}

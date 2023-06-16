@@ -1,6 +1,6 @@
-import '../../css/ServiceCss/FormServiceCss.css'
+import '../../../css/ServiceCss/FormServiceCss.css'
 
-export function FormService () {
+export function CreateVilla () {
     return(
         <>
             <section
@@ -16,7 +16,7 @@ export function FormService () {
                                 <div className="card" style={{borderRadius : " 15px"}}>
                                     <div className="card-body p-5">
                                         <h3 className="title text-uppercase text-center mt-4">
-                                            Thêm mới dịch vụ
+                                            Thêm mới Villa n n  
                                         </h3>
                                         <form>
                                             <div className="form-outline mb-4">

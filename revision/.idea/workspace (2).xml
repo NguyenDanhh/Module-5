@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5622323d-65df-4e6e-9e2d-d4dca4f0736f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CaseStudy-Module5/furama/src/component/serviceFurama/villa/UpdateVilla.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ProductService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy-Module5/furama/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy-Module5/furama/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy-Module5/furama/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy-Module5/furama/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy-Module5/furama/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy-Module5/furama/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy-Module5/furama/src/component/content/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy-Module5/furama/src/component/content/Body.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy-Module5/furama/src/component/content/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy-Module5/furama/src/component/content/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy-Module5/furama/src/component/serviceFurama/FormService.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy-Module5/furama/src/component/serviceFurama/villa/CreateVilla.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy-Module5/furama/src/component/serviceFurama/Service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy-Module5/furama/src/component/serviceFurama/villa/Villas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseStudy-Module5/furama/src/service/RoomService.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy-Module5/furama/src/service/VillaService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-md5/library.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2RCc7EOOvVziY7LgJt9QpTO7Bvz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last.edited.regexp" value="SP-1234" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\codegym\Module5\revision\public\examing-html" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codegym\Module5\revision\src\component" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="json-server" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="json-server" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.json-server" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5622323d-65df-4e6e-9e2d-d4dca4f0736f" name="Default Changelist" comment="" />
+      <created>1686757333048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686757333048</updated>
+      <workItem from="1686757335192" duration="151000" />
+      <workItem from="1686761953655" duration="237000" />
+      <workItem from="1686762232476" duration="1637000" />
+      <workItem from="1686763926057" duration="333000" />
+      <workItem from="1686791426399" duration="775000" />
+      <workItem from="1686792247946" duration="82000" />
+      <workItem from="1686792353384" duration="1510000" />
+      <workItem from="1686793931158" duration="544000" />
+      <workItem from="1686794518099" duration="42000" />
+      <workItem from="1686794584186" duration="45000" />
+      <workItem from="1686794666228" duration="613000" />
+      <workItem from="1686795415608" duration="139000" />
+      <workItem from="1686795572181" duration="1012000" />
+      <workItem from="1686796632699" duration="7096000" />
+      <workItem from="1686810433313" duration="4918000" />
+      <workItem from="1686835136198" duration="87000" />
+      <workItem from="1686835447107" duration="87000" />
+      <workItem from="1686835804482" duration="21000" />
+      <workItem from="1686835962706" duration="203000" />
+      <workItem from="1686837588999" duration="3764000" />
+      <workItem from="1686841602656" duration="1040000" />
+      <workItem from="1686845028261" duration="2069000" />
+      <workItem from="1686847723877" duration="152000" />
+      <workItem from="1686877929243" duration="3267000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="638" y="319" key="#ESLint" timestamp="1686824230811">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="638" y="319" key="#ESLint/0.0.1536.816@0.0.1536.816" timestamp="1686824230811" />
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1686881412630">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1686881412630" />
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1686847740353">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1686847740353" />
+    <state width="1515" height="136" key="GridCell.Tab.0.bottom" timestamp="1686882134678">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="136" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1686882134678" />
+    <state width="1515" height="136" key="GridCell.Tab.0.center" timestamp="1686882134678">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="136" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1686882134678" />
+    <state width="1515" height="136" key="GridCell.Tab.0.left" timestamp="1686882134678">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="136" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1686882134678" />
+    <state width="1515" height="136" key="GridCell.Tab.0.right" timestamp="1686882134678">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1515" height="136" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1686882134678" />
+  </component>
+</project>

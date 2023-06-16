@@ -1,73 +1,72 @@
 {
   "contact": [
     {
-      "id": "1",
+      "id": 1,
       "service": "resort",
       "startDay": "15/2/2021",
       "endDate": "15/3/2021",
       "deposit": "100.000",
       "totalPayment": "1.000.000",
-      "customerId" : "1",
-      "facilityId" :
+      "customerId" : 1
     },
     {
-      "id": "2",
+      "id": 2,
       "service": "resort",
       "startDay": "15/2/2021",
       "endDate": "15/3/2021",
       "deposit": "100.000",
       "totalPayment": "1.000.000",
-      "customerId" : "1"
+      "customerId" : 1
     },
     {
-      "id": "3",
+      "id": 3,
       "service": "resort",
       "startDay": "15/2/2021",
       "endDate": "15/3/2021",
       "deposit": "100.000",
       "totalPayment": "1.000.000",
-      "customerId" : "1"
+      "customerId" : 1
     },
     {
-      "id": "4",
+      "id": 4,
       "service": "resort",
       "startDay": "15/2/2021",
       "endDate": "15/3/2021",
       "deposit": "100.000",
       "totalPayment": "1.000.000",
-      "customerId" : "1"
+      "customerId" : 1
     },
     {
-      "id": "5",
+      "id": 5,
       "service": "resort",
       "startDay": "15/2/2021",
       "endDate": "15/3/2021",
       "deposit": "100.000",
       "totalPayment": "1.000.000",
-      "customerId" : "1"
+      "customerId" : 1
     },
     {
-      "id": "6",
+      "id": 6,
       "service": "resort",
       "startDay": "15/2/2021",
       "endDate": "15/3/2021",
       "deposit": "100.000",
       "totalPayment": "1.000.000",
-      "customerId" : "1"
+      "customerId" : 1
     },
     {
-      "id": "7",
+      "id": 7,
       "service": "resort",
       "startDay": "15/2/2021",
       "endDate": "15/3/2021",
       "deposit": "100.000",
       "totalPayment": "1.000.000",
-      "customerId" : "1"
+      "customerId" : 1
     }
   ],
   "customers": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Nguyễn Danhh",
       "dateOfBirth": "15/11/2003",
       "gender": "Nam",
@@ -75,10 +74,10 @@
       "phoneNumber": "123654789",
       "email": "danh@gmail.com",
       "address": "Đà Nẵng",
-      "customerType": "1"
+      "customerType": 1
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Ngô Hưng",
       "dateOfBirth": "01/10/2000",
       "gender": 1,
@@ -86,10 +85,10 @@
       "phoneNumber": "123654789",
       "email": "danh@gmail.com",
       "address": "Đà Nẵng",
-      "customerType": "2"
+      "customerType": 2
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Nguyễn Hoàng",
       "dateOfBirth": "13/02/1999",
       "gender": 1,
@@ -97,10 +96,10 @@
       "phoneNumber": "123654789",
       "email": "danh@gmail.com",
       "address": "Đà Nẵng",
-      "customerType": "3"
+      "customerType": 3
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Phan Trí",
       "dateOfBirth": "02/03/1996",
       "gender": 1,
@@ -108,94 +107,189 @@
       "phoneNumber": "123654789",
       "email": "danh@gmail.com",
       "address": "Đà Nẵng",
-      "customerType": "4"
+      "customerType": 4
     }
   ],
   "typeCustomer": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Diamond"
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Platinium"
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Gold"
     },
     {
-      "id": "4",
+      "id": 4,
       "name": "Silver"
     },
     {
-      "id": "5",
+      "id": 5,
       "name": "Member"
     }
   ],
   "room": [
     {
-      "id": "1",
-      "standardRoom": "Vip",
-      "description": "PHÒNG SUITE HƯỚNG BIỂN",
-      "swimmingArea": "85.8",
-      "numberOfFloors": "3"
+      "id": 1,
+     "accompaniedService" : "Miễn phí đồ ăn"
     },
     {
-      "id": "2",
+      "id": 2,
+      "accompaniedService" : "Miễn phí đồ ăn"
+    },
+    {
+      "id": 3,
+      "accompaniedService" : "Miễn phí đồ ăn"
+    },
+    {
+      "id": 4,
+      "accompaniedService" : "Miễn phí đồ ăn"
+    },
+    {
+      "id": 5,
+      "accompaniedService" : "Miễn phí đồ ăn"
+    },
+    {
+      "id": 6,
+      "standardRoom": "Vip",
+      "accompaniedService" : "Miễn phí đồ ăn"
+    },
+    {
+      "id": 7,
+      "accompaniedService" : "Miễn phí đồ ăn"
+    },
+    {
+      "id": 8,
+      "accompaniedService" : "Miễn phí đồ ăn"
+    },
+    {
+      "id": 9,
+      "accompaniedService" : "Miễn phí đồ ăn"
+    }
+  ],
+  "villa": [
+    {
+      "id": 1,
+      "standardRoom": "Vip",
+      "description": "PHÒNG SUITE HƯỚNG BIỂN",
+      "swimmingArea": 85.8,
+      "numberOfFloors": 3
+    },
+    {
+      "id": 2,
       "standardRoom": "Vip",
       "description": "PHÒNG STUDIO SUITE HƯỚNG BIỂN",
-      "swimmingArea": "85.8",
-      "numberOfFloors": "3"
+      "swimmingArea": 85.8,
+      "numberOfFloors": 3
     },
     {
-      "id": "3",
+      "id": 3,
       "standardRoom": "Vip",
       "description": "PHÒNG DELUXE HƯỚNG BIỂN",
-      "swimmingArea": "85.8",
-      "numberOfFloors": "3"
+      "swimmingArea": 85.8,
+      "numberOfFloors": 3
     },
     {
-      "id": "4",
+      "id": 4,
       "standardRoom": "Vip",
       "description": "PHÒNG SUITE HƯỚNG BIỂN",
-      "swimmingArea": "85.8",
-      "numberOfFloors": "3"
+      "swimmingArea": 85.8,
+      "numberOfFloors": 3
     },
     {
-      "id": "5",
+      "id": 5,
       "standardRoom": "Vip",
       "description": "PHÒNG SUITE HƯỚNG BIỂN",
-      "swimmingArea": "85.8",
-      "numberOfFloors": "3"
+      "swimmingArea": 85.8,
+      "numberOfFloors": 3
     },
     {
-      "id": "6",
+      "id": 6,
       "standardRoom": "Vip",
       "description": "PHÒNG SUITE HƯỚNG BIỂN",
-      "swimmingArea": "85.8",
-      "numberOfFloors": "3"
+      "swimmingArea": 85.8,
+      "numberOfFloors": 3
     },
     {
-      "id": "7",
+      "id": 7,
       "standardRoom": "Vip",
       "description": "PHÒNG SUITE HƯỚNG BIỂN",
-      "swimmingArea": "85.8",
-      "numberOfFloors": "3"
+      "swimmingArea": 85.8,
+      "numberOfFloors": 3
     },
     {
-      "id": "8",
+      "id": 8,
       "standardRoom": "Vip",
       "description": "PHÒNG SUITE HƯỚNG BIỂN",
-      "swimmingArea": "85.8",
-      "numberOfFloors": "3"
+      "swimmingArea": 85.8,
+      "numberOfFloors": 3
     },
     {
-      "id": "9",
+      "id": 9,
       "standardRoom": "Vip",
       "description": "PHÒNG SUITE HƯỚNG BIỂN",
-      "swimmingArea": "85.8",
-      "numberOfFloors": "3"
+      "swimmingArea": 85.8,
+      "numberOfFloors": 3
+    }
+  ],
+  "house": [
+    {
+      "id": 1,
+      "standardRoom": "Vip",
+      "description": "PHÒNG SUITE HƯỚNG BIỂN",
+      "numberOfFloors": 3
+    },
+    {
+      "id": 2,
+      "standardRoom": "Vip",
+      "description": "PHÒNG STUDIO SUITE HƯỚNG BIỂN",
+      "numberOfFloors": 3
+    },
+    {
+      "id": 3,
+      "standardRoom": "Vip",
+      "description": "PHÒNG DELUXE HƯỚNG BIỂN",
+      "numberOfFloors": 3
+    },
+    {
+      "id": 4,
+      "standardRoom": "Vip",
+      "description": "PHÒNG SUITE HƯỚNG BIỂN",
+      "numberOfFloors": 3
+    },
+    {
+      "id": 5,
+      "standardRoom": "Vip",
+      "description": "PHÒNG SUITE HƯỚNG BIỂN",
+      "numberOfFloors": 3
+    },
+    {
+      "id": 6,
+      "standardRoom": "Vip",
+      "description": "PHÒNG SUITE HƯỚNG BIỂN",
+      "numberOfFloors": 3
+    },
+    {
+      "id": 7,
+      "standardRoom": "Vip",
+      "description": "PHÒNG SUITE HƯỚNG BIỂN",
+      "numberOfFloors": 3
+    },
+    {
+      "id": 8,
+      "standardRoom": "Vip",
+      "description": "PHÒNG SUITE HƯỚNG BIỂN",
+      "numberOfFloors": 3
+    },
+    {
+      "id": 9,
+      "standardRoom": "Vip",
+      "description": "PHÒNG SUITE HƯỚNG BIỂN",
+      "numberOfFloors": 3
     }
   ]
 }
